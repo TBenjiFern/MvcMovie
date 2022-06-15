@@ -1,0 +1,58 @@
+html {
+  font-size: 14px;
+}
+
+body {
+  background-color: #AE866C;
+}
+
+nav {
+  background-color: #EAD8C2;
+  margin: 10px;
+}
+
+.nav-link:hover {
+  background-color: #765555;
+  color: #fff;
+}
+
+.navbar-brand:hover {
+  background-color: #765555;
+  color: #fff;
+}
+
+.nav-link, .navbar-brand {
+  color: black;
+}
+
+.navbar-brand {
+  padding: 5px;
+}
+
+.table {
+  border-color: black;
+}
+
+.container {
+  background-color: #EAD8C2;
+}
+
+.mainContainer {
+  border-radius: 20px;
+}
+
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
